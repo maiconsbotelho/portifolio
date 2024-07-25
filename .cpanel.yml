@@ -1,10 +1,9 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home2/maicon65/maiconbotelho.com.br/
+    - export DEPLOYPATH=/home2/maicon65/public_html/
     - /bin/cp -R .next $DEPLOYPATH
     - /bin/cp -R public $DEPLOYPATH
     - cd $DEPLOYPATH && npm install
     - cd $DEPLOYPATH && npm run build
 
-# cpnael 
