@@ -6,3 +6,5 @@ deployment:
     - /bin/cp -R public $DEPLOYPATH
     - cd $DEPLOYPATH && npm install
     - cd $DEPLOYPATH && npm run build
+
+# cpnael 
