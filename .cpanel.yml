@@ -1,0 +1,13 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/maicon65/maiconbotelho.com.br/
+    # Copia a pasta public para o diretório de deploy
+    - /bin/cp -R public $DEPLOYPATH
+    # Navega para o diretório de deploy
+    - cd $DEPLOYPATH
+    # Instala as dependências
+    - npm install
+    # Executa o build da aplicação
+    - npm run build
+
