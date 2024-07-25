@@ -11,19 +11,19 @@ const Welcome = () => {
       />
       <AnimatedText
         text="Maicon Botelho"
-        className="text-left text-2xl sm:text-3xl font-bold capitalize text-darkTheme md:!text-5xl lg:!text-3xl xl:!text-4xl 2xl:!text-5xl dark:text-white"
+        className="text-left text-2xl font-bold capitalize text-darkTheme dark:text-white sm:text-3xl md:!text-5xl lg:!text-3xl xl:!text-4xl 2xl:!text-5xl"
       />
       <DigitedText
         words={['Desenvolvedor Full-Stack', 'Desenvolvedor Web']}
-        className="text-left text-1xl sm:text-2xl font-bold text-secondaryColor md:!text-4xl lg:!text-2xl xl:!text-2xl 2xl:!text-3xl dark:text-primaryColor"
+        className="text-1xl text-left font-bold text-secondaryColor dark:text-primaryColor sm:text-2xl md:!text-4xl lg:!text-2xl xl:!text-2xl 2xl:!text-3xl"
       />
       <div className="mb-14 mt-5 hidden lg:block">
         <SocialLinks />
       </div>
 
       <p className="mt-5 text-xl font-medium">
-        "O sucesso é a soma de pequenos esforços repetidos diariamente." -
-        Robert Collier
+        &quot;O sucesso é a soma de pequenos esforços repetidos
+        diariamente.&quot; - Robert Collier
       </p>
     </section>
   );
