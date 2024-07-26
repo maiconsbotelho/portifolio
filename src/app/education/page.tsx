@@ -23,7 +23,7 @@ const Education = () => {
             />
             <AnimatedText
               text="é o caminho do êxito"
-              className="text-3xl uppercase font-bold text-secondaryColor dark:text-primaryColor md:text-5xl"
+              className="text-3xl uppercase font-bold text-primaryColor dark:text-primaryColor md:text-5xl"
             />
           </div>
           <ExpandableCard />

@@ -50,16 +50,18 @@ const NavBar = () => {
               className="ml-10"
             />
           </nav>
-        
 
           <ThemeBtn />
         </div>
-
+        <div className='lg:hidden'>
+          <ThemeBtn />
+        </div>
         {isOpen ? (
           <motion.div
             initial={{ scale: 0, opacity: 0, x: '-50%', y: '-50%' }}
             animate={{ scale: 1, opacity: 1 }}
-            className="fixed left-1/2 top-1/2 z-30 flex min-w-[70vw] -translate-x-1/2 -translate-y-1/2 flex-col items-center justify-between gap-5 rounded-lg bg-darkTheme/90 py-32 backdrop-blur-md lg:hidden dark:bg-ligthTheme/75">
+            className="fixed left-1/2 top-1/2 z-30 flex min-w-[70vw] -translate-x-1/2 -translate-y-1/2 flex-col items-center justify-between gap-5 rounded-lg bg-darkTheme/90 py-32 backdrop-blur-md dark:bg-ligthTheme/75 lg:hidden"
+          >
             <nav className="flex flex-col items-center justify-center text-xl">
               <CustomMobileLink
                 href="/"
@@ -87,7 +89,7 @@ const NavBar = () => {
             </nav>
 
             <div className="flex flex-wrap items-center justify-center gap-4">
-              <ThemeBtn />
+              {/* <ThemeBtn /> */}
               <SocialLinks />
             </div>
           </motion.div>

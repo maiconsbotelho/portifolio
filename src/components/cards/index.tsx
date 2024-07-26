@@ -23,7 +23,7 @@ const CardBase: React.FC<ProjectProps> = ({
       </div>
       <div className="mt-4 flex w-full items-center justify-between gap-4">
         <div>
-          <span className="text-xl font-medium text-secondaryColor">
+          <span className="text-xl font-medium text-primaryColor">
             {type}
           </span>
           <h2 className="my-2 w-full text-left text-3xl font-bold text-darkTheme">
@@ -31,7 +31,7 @@ const CardBase: React.FC<ProjectProps> = ({
           </h2>
         </div>
         {/* Carga horária como um selo no canto superior direito do card */}
-        <div className="absolute right-0 top-0 m-4 rounded-lg bg-secondaryColor p-2 px-6 text-base font-semibold text-white dark:bg-primaryColor dark:text-darkTheme">
+        <div className="absolute right-0 top-0 m-4 rounded-lg bg-primaryColor p-2 px-6 text-base font-semibold text-white dark:bg-primaryColor dark:text-darkTheme">
           <p>{cargaHoraria}</p>
         </div>
       </div>

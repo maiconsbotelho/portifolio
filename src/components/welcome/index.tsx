@@ -15,7 +15,7 @@ const Welcome = () => {
       />
       <DigitedText
         words={['Desenvolvedor Full-Stack', 'Desenvolvedor Web']}
-        className="text-1xl text-left font-bold text-secondaryColor dark:text-primaryColor sm:text-2xl md:!text-4xl lg:!text-2xl xl:!text-2xl 2xl:!text-3xl"
+        className="text-1xl text-left font-bold text-primaryColor sm:text-2xl md:!text-4xl lg:!text-2xl xl:!text-2xl 2xl:!text-3xl"
       />
       <div className="mb-14 mt-5 hidden lg:block">
         <SocialLinks />

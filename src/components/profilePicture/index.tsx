@@ -3,7 +3,7 @@ import ImagePerfil from '../../../public/assets/picArtInverso.png';
 
 const ProfilePicture = () => {
   return (
-    <div className='mobile:w-60 max-w-screen-lg'>
+    <div className="max-w-screen-lg xss:w-60 customLG:max-w-screen-sm ">
       <Image src={ImagePerfil} alt="Foto de perfil" />
     </div>
   );

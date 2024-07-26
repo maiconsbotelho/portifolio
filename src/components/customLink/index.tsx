@@ -12,7 +12,7 @@ const CustomLink = ({ href, title, className = '' }: LinkProps) => {
     >
       {title}
       <span
-        className={`dark:bg-pritext-primaryColor absolute bottom-0.5 left-0 inline-block h-[3px] bg-secondaryColor transition-[width] duration-300 ease-linear group-hover:w-full ${pathname === href ? 'w-full' : 'w-0'} `}
+        className={`dark:bg-pritext-primaryColor absolute bottom-0.5 left-0 inline-block h-[3px] bg-primaryColor transition-[width] duration-300 ease-linear group-hover:w-full ${pathname === href ? 'w-full' : 'w-0'} `}
       >
         &nbsp;
       </span>
@@ -41,7 +41,7 @@ const CustomMobileLink = ({
     >
       {title}
       <span
-        className={`absolute bottom-0.5 left-0 inline-block h-[3px] bg-primaryColor transition-[width] duration-300 ease-linear group-hover:w-full dark:bg-secondaryColor ${pathname === href ? 'w-full' : 'w-0'} `}
+        className={`absolute bottom-0.5 left-0 inline-block h-[3px] transition-[width] duration-300 ease-linear group-hover:w-full bg-primaryColor ${pathname === href ? 'w-full' : 'w-0'} `}
       >
         &nbsp;
       </span>

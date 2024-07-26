@@ -20,7 +20,7 @@ const About = () => {
           />
           <AnimatedText
             text="DO SUCESSO É COMEÇAR!"
-            className=" text-secondaryColor dark:text-primaryColor hidden text-3xl uppercase font-bold lg:block md:text-5xl"
+            className=" text-primaryColor dark:text-primaryColor hidden text-3xl uppercase font-bold lg:block md:text-5xl"
           />
 
           <AnimatedText
@@ -30,7 +30,7 @@ const About = () => {
 
           <AnimatedText
             text="É COMEÇAR!"
-            className="text-secondaryColor uppercase dark:text-primaryColor text-3xl font-bold md:text-5xl lg:hidden"
+            className="text-primaryColor uppercase dark:text-primaryColor text-3xl font-bold md:text-5xl lg:hidden"
           />
 
           <div className="mt-10 lg:mt-32 flex flex-col items-center justify-between gap-32 md:flex-row">

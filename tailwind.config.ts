@@ -10,13 +10,6 @@ const config = {
   ],
   prefix: '',
   theme: {
-    container: {
-      center: true,
-      padding: '2rem',
-      screens: {
-        '2xl': '1400px',
-      },
-    },
     extend: {
       fontFamily: {
         sans: ['Montserrat', 'sans-serif'],
@@ -24,8 +17,8 @@ const config = {
       colors: {
         darkTheme: '#000000',
         ligthTheme: '#f5f5f5',
-        primaryColor: '#007BFF',
-        secondaryColor: ' #0056D2',
+        // primaryColor: '#007BFF',
+        // secondaryColor: ' #0056D2',
         accentColor: ' #4B4B4B',
         whatsappColor: '#25d366',
         linkedinColor: '#0a66c2',
@@ -34,10 +27,7 @@ const config = {
         ring: 'hsl(var(--ring))',
         background: 'hsl(var(--background))',
         foreground: 'hsl(var(--foreground))',
-        primary: {
-          DEFAULT: 'hsl(var(--primary))',
-          foreground: 'hsl(var(--primary-foreground))',
-        },
+        primaryColor: 'var(--primaryColor)',
 
         height: {
           'custom-calc': 'calc(100vh - 112px)',
@@ -88,7 +78,13 @@ const config = {
       },
 
       screens: {
-        mobile: { max: '500px' },
+        xss: { min: '0px', max: '399px' },
+        xs: { min: '400px', max: '639px' },
+        sm: '640px',
+        md: '768px',
+        lg: '1024px',
+        xl: '1280px',
+        xxl: '1536px',
         customLG: { max: '1023px' },
       },
 
@@ -97,6 +93,7 @@ const config = {
         md: 'calc(var(--radius) - 2px)',
         sm: 'calc(var(--radius) - 4px)',
       },
+
       keyframes: {
         'accordion-down': {
           from: { height: '0' },
@@ -107,6 +104,7 @@ const config = {
           to: { height: '0' },
         },
       },
+
       animation: {
         'accordion-down': 'accordion-down 0.2s ease-out',
         'accordion-up': 'accordion-up 0.2s ease-out',

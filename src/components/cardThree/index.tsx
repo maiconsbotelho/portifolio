@@ -47,7 +47,7 @@ export function CardThree() {
             as={Link}
             href="https://selletesmalteria.com.br/"
             target="__blank"
-            className="bg-secondaryColor dark:bg-primaryColor dark:text-darkTheme ml-4 rounded-lg p-2 px-6 text-lg font-semibold text-white"
+            className="bg-primaryColor dark:text-darkTheme ml-4 rounded-lg p-2 px-6 text-lg font-semibold text-white"
           >
             Sign up
           </CardItem>

@@ -25,15 +25,15 @@ const Projects = () => {
           />
           <AnimatedText
             text="o impossível apenas demora mais!"
-            className="hidden text-3xl uppercase font-bold text-secondaryColor dark:text-primaryColor md:text-5xl xl:block"
+            className="hidden text-3xl uppercase font-bold text-primaryColor  md:text-5xl xl:block"
           />{' '}
           <AnimatedText
             text="o impossível apenas "
-            className="text-3xl font-bold uppercase text-secondaryColor dark:text-primaryColor  md:text-5xl xl:hidden"
+            className="text-3xl font-bold uppercase text-primaryColor   md:text-5xl xl:hidden"
           />
           <AnimatedText
             text="demora mais!"
-            className="text-3xl font-bold uppercase text-secondaryColor dark:text-primaryColor md:text-5xl xl:hidden"
+            className="text-3xl font-bold uppercase text-primaryColor  md:text-5xl xl:hidden"
           />
           <div className="mt-20 flex flex-wrap justify-center gap-10">
             <Card3D

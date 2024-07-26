@@ -24,7 +24,7 @@ const Project: React.FC<ProjectProps> = ({
         </div>
       </Link>
       <div className="mt-4 flex w-full flex-col items-start justify-between">
-        <span className="text-xl font-medium text-secondaryColor dark:text-primaryColor">{type}</span>
+        <span className="text-xl font-medium text-primaryColor">{type}</span>
         <Link
           href={link}
           target="_blank"
@@ -40,7 +40,7 @@ const Project: React.FC<ProjectProps> = ({
           <Link
             href={link}
             target="_blank"
-            className="ml-4 rounded-lg bg-secondaryColor dark:bg-primaryColor p-2 px-6 text-lg font-semibold text-ligthTheme dark:text-darkTheme"
+            className="ml-4 rounded-lg bg-primaryColor p-2 px-6 text-lg font-semibold text-ligthTheme dark:text-darkTheme"
           >
             Visite
           </Link>

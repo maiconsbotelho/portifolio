@@ -102,7 +102,7 @@ const Card3D: React.FC<CardProps> = ({
             as={Link}
             href={website}
             target="__blank"
-            className="ml-4 rounded-3xl bg-secondaryColor p-2 px-6 text-lg font-semibold text-white"
+            className="ml-4 rounded-3xl bg-primaryColor p-2 px-6 text-lg font-semibold text-white"
           >
             Visite
           </CardItem>
