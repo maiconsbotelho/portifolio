@@ -14,16 +14,16 @@ const Education = () => {
           content="Página de projetos desenvolvidos em React e Next.JS"
         />
       </Head>
-      <main className="mb-16 flex w-full flex-col items-center pt-20">
+      <main className="mb-16 flex w-full flex-col items-center sm:mt-20">
         <Container>
           <div className="mb-10 lg:mb-32">
             <AnimatedText
               text="A Persistência "
-              className="text-3xl uppercase font-bold text-black dark:text-white md:text-5xl"
+              className="text-base sm:text-3xl uppercase font-bold text-foreground md:text-5xl"
             />
             <AnimatedText
               text="é o caminho do êxito"
-              className="text-3xl uppercase font-bold text-primaryColor dark:text-primaryColor md:text-5xl"
+              className="text-base sm:text-3xl uppercase font-bold text-primaryColor md:text-5xl"
             />
           </div>
           <ExpandableCard />

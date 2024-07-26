@@ -2,10 +2,10 @@
 import Container from '@/components/container';
 import { CustomLink, CustomMobileLink } from '@/components/customLink';
 import Logo from '@/components/logo';
-import ThemeBtn from '@/components/themeBtn';
-import { useState } from 'react';
 import SocialLinks from '@/components/socialLinks';
+import ThemeBtn from '@/components/themeBtn';
 import { motion } from 'framer-motion';
+import { useState } from 'react';
 
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false); // Estado do menu
@@ -44,25 +44,21 @@ const NavBar = () => {
             <CustomLink href="/" title="Home" className="mr-10" />
             <CustomLink href="/about" title="Sobre" className="mx-10" />
             <CustomLink href="/projects" title="Projetos" className="mx-10" />
-            <CustomLink
-              href="/education"
-              title="Certificados"
-              className="ml-10"
-            />
+            <CustomLink href="/education" title="Formação" className="ml-10" />
           </nav>
 
           <ThemeBtn />
         </div>
-        <div className='lg:hidden'>
+        <div className="lg:hidden">
           <ThemeBtn />
         </div>
         {isOpen ? (
           <motion.div
             initial={{ scale: 0, opacity: 0, x: '-50%', y: '-50%' }}
             animate={{ scale: 1, opacity: 1 }}
-            className="fixed left-1/2 top-1/2 z-30 flex min-w-[70vw] -translate-x-1/2 -translate-y-1/2 flex-col items-center justify-between gap-5 rounded-lg bg-black/90 py-32 backdrop-blur-md dark:bg-white/75 lg:hidden"
+            className="fixed left-1/2 top-1/2 z-30 flex h-96 min-w-[70vw] -translate-x-1/2 -translate-y-1/2 flex-col items-center justify-between gap-5 rounded-lg bg-black/90 py-10 backdrop-blur-md dark:bg-white/75 lg:hidden"
           >
-            <nav className="flex flex-col items-center justify-center text-xl">
+            <nav className="flex flex-col items-center justify-center text-2xl">
               <CustomMobileLink
                 href="/"
                 title="Home"
@@ -83,15 +79,13 @@ const NavBar = () => {
               />
               <CustomMobileLink
                 href="/education"
-                title="Certificados"
+                title="Formação"
                 className=""
+                toggle={handleClick}
               />
             </nav>
 
-            <div className="flex flex-wrap items-center justify-center gap-4">
-              {/* <ThemeBtn /> */}
-              <SocialLinks />
-            </div>
+            <SocialLinks />
           </motion.div>
         ) : null}
       </header>
