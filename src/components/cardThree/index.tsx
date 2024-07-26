@@ -38,7 +38,7 @@ export function CardThree() {
             as={Link}
             href="https://github.com/maiconsbotelho/SelletEsmalteria"
             target="__blank"
-            className="text-darkTheme dark:text-ligthTheme"
+            className="text-black dark:text-white"
           >
             <FaGithub size={40} />
           </CardItem>
@@ -47,7 +47,7 @@ export function CardThree() {
             as={Link}
             href="https://selletesmalteria.com.br/"
             target="__blank"
-            className="bg-primaryColor dark:text-darkTheme ml-4 rounded-lg p-2 px-6 text-lg font-semibold text-white"
+            className="bg-primaryColor dark:text-black ml-4 rounded-lg p-2 px-6 text-lg font-semibold text-white"
           >
             Sign up
           </CardItem>

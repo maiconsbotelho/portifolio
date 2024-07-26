@@ -11,7 +11,7 @@ const ThemeBtn = () => {
     <div>
       <button
         onClick={() => setMode(mode === 'light' ? 'dark' : 'light')}
-        className={`ml-3 p-2 flex items-center justify-center rounded-full ${mode === 'light' ? 'bg-darkTheme text-white' : 'bg-ligthTheme text-darkTheme'}`}
+        className={`ml-3 p-2 flex items-center justify-center rounded-full ${mode === 'light' ? 'bg-black text-white' : 'bg-white text-black'}`}
       >
         {mode === 'dark' ? <IoSunny size={16} /> : <FaRegMoon size={16} />}
       </button>

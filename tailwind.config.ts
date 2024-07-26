@@ -14,24 +14,18 @@ const config = {
       fontFamily: {
         sans: ['Montserrat', 'sans-serif'],
       },
+
+      height: {
+        'custom-calc': 'calc(100vh - 112px)',
+      },
+
       colors: {
-        darkTheme: '#000000',
-        ligthTheme: '#f5f5f5',
-        // primaryColor: '#007BFF',
-        // secondaryColor: ' #0056D2',
-        accentColor: ' #4B4B4B',
-        whatsappColor: '#25d366',
-        linkedinColor: '#0a66c2',
-        border: 'hsl(var(--border))',
-        input: 'hsl(var(--input))',
-        ring: 'hsl(var(--ring))',
+        primaryColor: 'var(--primaryColor)',
         background: 'hsl(var(--background))',
         foreground: 'hsl(var(--foreground))',
-        primaryColor: 'var(--primaryColor)',
-
-        height: {
-          'custom-calc': 'calc(100vh - 112px)',
-        },
+        border: 'hsl(var(--border))',
+        whatsappColor: '#25d366',
+        linkedinColor: '#0a66c2',
 
         secondary: {
           DEFAULT: 'hsl(var(--secondary))',

@@ -13,7 +13,7 @@ const SocialLinks = () => {
         target={'_blank'}
         whileHover={{ y: -2 }} // Levanta o ícone ao passar o mouse
         whileTap={{ scale: 0.9 }} // Diminui o tamanho do ícone ao clicar
-        className="cursor-pointer rounded-full border-2 border-white bg-white p-2 text-black transition-all duration-300 ease-linear hover:border-ligthTheme hover:bg-white hover:text-darkTheme hover:shadow-githubColorDark dark:border-white dark:hover:border-ligthTheme dark:hover:bg-ligthTheme dark:hover:text-darkTheme lg:border-primaryColor lg:bg-transparent lg:p-3 lg:text-primaryColor lg:hover:border-darkTheme lg:hover:bg-darkTheme lg:hover:text-ligthTheme lg:hover:shadow-githubColor lg:dark:hover:shadow-githubColorDark lg:dark:hover:shadow-primaryColor"
+        className="cursor-pointer rounded-full border-2 border-white bg-white p-2 text-black transition-all duration-300 ease-linear hover:border-white hover:bg-white hover:text-black hover:shadow-githubColorDark dark:border-white dark:hover:border-white dark:hover:bg-white dark:hover:text-black lg:border-primaryColor lg:bg-transparent lg:p-3 lg:text-primaryColor lg:hover:border-black lg:hover:bg-black lg:hover:text-white lg:hover:shadow-githubColor lg:dark:hover:shadow-githubColorDark lg:dark:hover:shadow-primaryColor"
       >
         <div className="block lg:hidden">
           <FaGithub size={16} />

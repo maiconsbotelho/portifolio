@@ -24,10 +24,10 @@ export default function Home() {
         </div>
       </main>
       <HireMe />
-      <div className="absolute bottom-16 right-12 hidden w-48 text-darkTheme dark:hidden dark:text-ligthTheme lg:inline-block">
+      <div className="absolute bottom-16 right-12 hidden w-48 text-black dark:hidden dark:text-white lg:inline-block">
         <Image src={Lamp} alt="Lamp" />
       </div>
-      <div className="absolute bottom-16 right-12 hidden w-48 text-darkTheme  dark:lg:inline-block dark:text-ligthTheme">
+      <div className="absolute bottom-16 right-12 hidden w-48 text-black  dark:lg:inline-block dark:text-white">
         <Image src={LampDark} alt="Lamp" />
       </div>
     </Container>

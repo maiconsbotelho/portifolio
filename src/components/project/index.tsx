@@ -12,7 +12,7 @@ const Project: React.FC<ProjectProps> = ({
   github = '',
 }) => {
   return (
-    <article className="dark:shadow-quadro relative flex w-full flex-col items-center justify-center rounded-2xl border border-solid border-darkTheme dark:border-ligthTheme bg-white dark:bg-darkTheme  p-6 shadow-quadroDark">
+    <article className="dark:shadow-quadro relative flex w-full flex-col items-center justify-center rounded-2xl border border-solid border-black dark:border-white bg-white dark:bg-black  p-6 shadow-quadroDark">
       <Link
         href={link}
         target="_blank"
@@ -32,15 +32,15 @@ const Project: React.FC<ProjectProps> = ({
         >
           <h2 className="my-2 w-full text-left text-3xl font-bold">{title}</h2>
         </Link>
-        <p className="my-2 font-medium text-darkTheme dark:text-ligthTheme">{summary}</p>
+        <p className="my-2 font-medium text-black dark:text-white">{summary}</p>
         <div className="mt-5 flex w-full items-center justify-end gap-5">
-          <Link href={github} target="_blank" className='text-darkTheme dark:text-ligthTheme'>
+          <Link href={github} target="_blank" className='text-black dark:text-white'>
             <FaGithub size={40} />
           </Link>
           <Link
             href={link}
             target="_blank"
-            className="ml-4 rounded-lg bg-primaryColor p-2 px-6 text-lg font-semibold text-ligthTheme dark:text-darkTheme"
+            className="ml-4 rounded-lg bg-primaryColor p-2 px-6 text-lg font-semibold text-white dark:text-black"
           >
             Visite
           </Link>

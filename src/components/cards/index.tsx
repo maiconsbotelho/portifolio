@@ -10,7 +10,7 @@ const CardBase: React.FC<ProjectProps> = ({
   cargaHoraria,
 }) => {
   return (
-    <article className="dark:shadow-boxDark relative flex h-full max-h-dvh w-full flex-col items-center justify-start rounded-2xl border border-solid border-darkTheme bg-white p-6 shadow-box">
+    <article className="dark:shadow-boxDark relative flex h-full max-h-dvh w-full flex-col items-center justify-start rounded-2xl border border-solid border-black bg-white p-6 shadow-box">
       <div className="relative w-full cursor-pointer overflow-hidden rounded-lg">
         <div className="relative overflow-hidden rounded-lg">
           <Image src={img} alt={title} className="h-auto w-full" />
@@ -26,12 +26,12 @@ const CardBase: React.FC<ProjectProps> = ({
           <span className="text-xl font-medium text-primaryColor">
             {type}
           </span>
-          <h2 className="my-2 w-full text-left text-3xl font-bold text-darkTheme">
+          <h2 className="my-2 w-full text-left text-3xl font-bold text-black">
             {title}
           </h2>
         </div>
         {/* Carga horária como um selo no canto superior direito do card */}
-        <div className="absolute right-0 top-0 m-4 rounded-lg bg-primaryColor p-2 px-6 text-base font-semibold text-white dark:bg-primaryColor dark:text-darkTheme">
+        <div className="absolute right-0 top-0 m-4 rounded-lg bg-primaryColor p-2 px-6 text-base font-semibold text-white dark:bg-primaryColor dark:text-black">
           <p>{cargaHoraria}</p>
         </div>
       </div>

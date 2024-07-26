@@ -16,7 +16,7 @@ const About = () => {
         <div>
           <AnimatedText
             text="O segredo "
-            className="text-darkTheme dark:text-ligthTheme text-3xl font-bold leading-relaxed md:text-5xl uppercase"
+            className="text-black dark:text-white text-3xl font-bold leading-relaxed md:text-5xl uppercase"
           />
           <AnimatedText
             text="DO SUCESSO É COMEÇAR!"
@@ -25,7 +25,7 @@ const About = () => {
 
           <AnimatedText
             text="DO SUCESSO"
-            className="text-darkTheme dark:text-ligthTheme text-3xl font-bold uppercase md:text-5xl lg:hidden"
+            className="text-black dark:text-white text-3xl font-bold uppercase md:text-5xl lg:hidden"
           />
 
           <AnimatedText
@@ -35,7 +35,7 @@ const About = () => {
 
           <div className="mt-10 lg:mt-32 flex flex-col items-center justify-between gap-32 md:flex-row">
             <div className="md-order-1 order-2 col-span-8 flex flex-col items-start justify-start md:col-span-4">
-              <h2 className="text-darkTheme/75 mb-4 text-lg font-bold uppercase dark:text-white">
+              <h2 className="text-black/75 mb-4 text-lg font-bold uppercase dark:text-white">
                 Sobre
               </h2>
               <p className="font-medium">
@@ -53,7 +53,7 @@ const About = () => {
               </p>
             </div>
 
-            <div className="dark:bg-darkTheme border-darkTheme bg-ligthTheme shadow-quadroDark dark:shadow-quadro relative order-1 h-max rounded-2xl border-2 border-solid p-8 dark:border-white md:order-2">
+            <div className="dark:bg-black border-black bg-white shadow-quadroDark dark:shadow-quadro relative order-1 h-max rounded-2xl border-2 border-solid p-8 dark:border-white md:order-2">
               <Image
                 src={PerfilPic}
                 alt="Maicon Botelho"

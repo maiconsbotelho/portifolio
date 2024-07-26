@@ -16,13 +16,13 @@ const ToggleBtn = () => {
         onClick={handleToggle}
       >
         <span
-          className={`block h-0.5 w-6 rounded-sm bg-darkTheme transition-all duration-300 ease-out dark:bg-ligthTheme ${isOpen ? 'translate-y-1 rotate-45' : '-translate-y-0.5'}`}
+          className={`block h-0.5 w-6 rounded-sm bg-black transition-all duration-300 ease-out dark:bg-white ${isOpen ? 'translate-y-1 rotate-45' : '-translate-y-0.5'}`}
         ></span> 
         <span
-          className={`my-0.5 block h-0.5 w-6 rounded-sm bg-darkTheme transition-all duration-300 ease-out dark:bg-ligthTheme ${isOpen ? 'opacity-0' : 'opacity-100'}`}
+          className={`my-0.5 block h-0.5 w-6 rounded-sm bg-black transition-all duration-300 ease-out dark:bg-white ${isOpen ? 'opacity-0' : 'opacity-100'}`}
         ></span>
         <span
-          className={`block h-0.5 w-6 rounded-sm bg-darkTheme transition-all duration-300 ease-out dark:bg-ligthTheme ${isOpen ? '-translate-y-1 -rotate-45' : 'translate-y-0.5'}`}
+          className={`block h-0.5 w-6 rounded-sm bg-black transition-all duration-300 ease-out dark:bg-white ${isOpen ? '-translate-y-1 -rotate-45' : 'translate-y-0.5'}`}
         ></span>
       </button>
     </div>

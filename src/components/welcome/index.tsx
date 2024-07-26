@@ -7,11 +7,11 @@ const Welcome = () => {
     <section>
       <AnimatedText
         text="Olá, sou o"
-        className="text-left text-sm text-darkTheme dark:text-white"
+        className="text-left text-sm text-black dark:text-white"
       />
       <AnimatedText
         text="Maicon Botelho"
-        className="text-left text-2xl font-bold capitalize text-darkTheme dark:text-white sm:text-3xl md:!text-5xl lg:!text-3xl xl:!text-4xl 2xl:!text-5xl"
+        className="text-left text-2xl font-bold capitalize text-black dark:text-white sm:text-3xl md:!text-5xl lg:!text-3xl xl:!text-4xl 2xl:!text-5xl"
       />
       <DigitedText
         words={['Desenvolvedor Full-Stack', 'Desenvolvedor Web']}

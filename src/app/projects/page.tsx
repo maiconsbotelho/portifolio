@@ -17,11 +17,11 @@ const Projects = () => {
           content="Página de projetos desenvolvidos em React e Next.JS"
         />
       </Head>
-      <main className="mb-16 flex w-full flex-col items-center pt-20">
+      <main className="mb-16 flex w-full flex-col items-center sm:pt-20">
         <Container>
           <AnimatedText
-            text="Tudo é possível,"
-            className="text-3xl uppercase font-bold text-darkTheme dark:text-ligthTheme md:text-5xl"
+            text="Tudo é possível"
+            className="text-base  sm:text-3xl  uppercase font-bold text-black dark:text-white md:text-5xl"
           />
           <AnimatedText
             text="o impossível apenas demora mais!"
@@ -29,13 +29,13 @@ const Projects = () => {
           />{' '}
           <AnimatedText
             text="o impossível apenas "
-            className="text-3xl font-bold uppercase text-primaryColor   md:text-5xl xl:hidden"
+            className="text-base sm:text-3xl font-bold uppercase text-primaryColor   md:text-5xl xl:hidden"
           />
           <AnimatedText
             text="demora mais!"
-            className="text-3xl font-bold uppercase text-primaryColor  md:text-5xl xl:hidden"
+            className="text-base sm:text-3xl font-bold uppercase text-primaryColor  md:text-5xl xl:hidden"
           />
-          <div className="mt-20 flex flex-wrap justify-center gap-10">
+          <div className="mt-10 sm:mt-20 flex flex-wrap justify-center gap-10">
             <Card3D
               title="Sellet Esmalteria"
               description="Projeto desenvolvido para uma esmalteria, com o intuito de mostrar os

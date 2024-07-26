@@ -43,7 +43,7 @@ const Card3D: React.FC<CardProps> = ({
   website = '',
 }) => {
   return (
-    <CardContainer className="inter-var w-auto">
+    <CardContainer className="inter-var sm:w-auto w-72 xs:w-80">
       <CardBody className="group/card relative h-auto rounded-xl border border-black/[0.1] bg-black p-6 hover:shadow-2xl hover:shadow-black dark:border-white/[0.2] dark:hover:shadow-2xl dark:hover:shadow-blue-500">
         <CardItem translateZ="50" className="text-xl font-bold text-white">
           {title}
@@ -51,7 +51,7 @@ const Card3D: React.FC<CardProps> = ({
         <CardItem
           as="p"
           translateZ="60"
-          className="mt-2 h-28 max-w-sm text-sm text-neutral-300"
+          className="mt-2 sm:h-28 max-w-sm sm:text-sm text-xs h-20 text-neutral-300"
         >
           {description}
         </CardItem>
@@ -66,7 +66,7 @@ const Card3D: React.FC<CardProps> = ({
         </CardItem>
 
         {/* Tecnologias usadas */}
-        <div className="mt-10 flex items-center justify-center text-neutral-300">
+        <div className="sm:mt-10 mt-5 flex text-base items-center justify-center text-neutral-300">
           <span>Tecnologias:</span>
         </div>
         <div className="mt-1 flex items-center justify-center gap-2">
@@ -74,7 +74,7 @@ const Card3D: React.FC<CardProps> = ({
             <div className="group relative" key={tech}>
               <CardItem
                 translateZ={20}
-                className="text-darkTheme dark:text-ligthTheme"
+                className="text-black dark:text-white"
               >
                 {technologyIcons[tech] || <span>{tech}</span>}
               </CardItem>
@@ -93,7 +93,7 @@ const Card3D: React.FC<CardProps> = ({
             as={Link}
             href={github}
             target="__blank"
-            className="text-ligthTheme"
+            className="text-white"
           >
             <SiGithub size={40} />
           </CardItem>
@@ -102,7 +102,7 @@ const Card3D: React.FC<CardProps> = ({
             as={Link}
             href={website}
             target="__blank"
-            className="ml-4 rounded-3xl bg-primaryColor p-2 px-6 text-lg font-semibold text-white"
+            className="ml-4 rounded-3xl bg-primaryColor p-2 px-12 text-lg font-semibold text-white"
           >
             Visite
           </CardItem>

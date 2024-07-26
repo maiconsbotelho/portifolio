@@ -19,7 +19,7 @@ const Education = () => {
           <div className="mb-10 lg:mb-32">
             <AnimatedText
               text="A Persistência "
-              className="text-3xl uppercase font-bold text-darkTheme dark:text-ligthTheme md:text-5xl"
+              className="text-3xl uppercase font-bold text-black dark:text-white md:text-5xl"
             />
             <AnimatedText
               text="é o caminho do êxito"
