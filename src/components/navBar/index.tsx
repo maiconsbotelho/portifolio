@@ -21,7 +21,7 @@ const NavBar = () => {
 
   return (
     <Container>
-      <header className="flex h-28 w-full items-center justify-between px-2 font-medium">
+      <header className="flex h-28 w-full items-center justify-between font-medium">
         {/* Botão de menu mobile (ToggleMenu) */}
         <button
           className="flex flex-col items-center justify-center lg:hidden"

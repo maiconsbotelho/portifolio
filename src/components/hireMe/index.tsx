@@ -4,7 +4,7 @@ import { FaWhatsapp } from 'react-icons/fa';
 
 const HireMe = () => {
   return (
-    <div className="customLG:right-8 customLG:left-auto customLG:top-2 customLG:bottom-auto fixed customLG:absolute bottom-0 left-4 flex items-center justify-center overflow-hidden">
+    <div className="customLG:right-8 customLG:left-auto customLG:bottom-2 customLG:top-auto fixed customLG:absolute bottom-0 left-4 flex items-center justify-center overflow-hidden">
       <div className="customLG:w-28 relative flex h-auto w-56 items-center justify-center">
         <CircularText className="animate-spin-slow text-secondaryColor dark:text-primaryColor" />
 

@@ -11,14 +11,14 @@ export default function Home() {
   return (
     <Container>
       <main className="h-custom-calc">
-        <div className="flex flex-col items-center justify-between gap-16 lg:flex-row">
+        <div className="flex flex-col items-center justify-between gap-5 md:gap-16 lg:flex-row">
           <div>
             <ProfilePicture />
           </div>
           <div className="flex flex-col gap-5">
             <Welcome />
             <div>
-              <CvButton />
+              {/* <CvButton /> */}
             </div>
           </div>
         </div>

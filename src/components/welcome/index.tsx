@@ -7,7 +7,7 @@ const Welcome = () => {
     <section>
       <AnimatedText
         text="Olá, sou o"
-        className="text-left text-2xl text-darkTheme dark:text-white"
+        className="text-left text-sm text-darkTheme dark:text-white"
       />
       <AnimatedText
         text="Maicon Botelho"
@@ -21,9 +21,12 @@ const Welcome = () => {
         <SocialLinks />
       </div>
 
-      <p className="mt-5 text-xl font-medium">
+      <p className="mt-5 text-base font-medium md:text-xl">
         &quot;O sucesso é a soma de pequenos esforços repetidos
-        diariamente.&quot; - Robert Collier
+        diariamente.&quot;
+      </p>
+      <p className='text-right mt-2 text-xs md:text-base  text-zinc-700'>
+        - Robert Collier -
       </p>
     </section>
   );
