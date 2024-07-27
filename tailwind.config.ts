@@ -16,7 +16,7 @@ const config = {
       },
 
       height: {
-        'custom-calc': 'calc(100vh - 112px)',
+        'custom-calc': 'calc(100vh - 144px)',
       },
 
       colors: {
@@ -65,6 +65,7 @@ const config = {
         boxDark: '5px 5px 10px 2px #fff',
         quadro: '5px 5px 1px 2px #fff',
         quadroDark: '5px 5px 1px 2px #1b1b1b',
+        foreground: '0 0 10px var(--foreground)',
       },
 
       letterSpacing: {

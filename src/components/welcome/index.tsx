@@ -11,7 +11,8 @@ const Welcome = () => {
       />
       <AnimatedText
         text="Maicon Botelho"
-        className="text-left text-2xl font-bold capitalize text-black dark:text-white sm:text-3xl md:!text-5xl lg:!text-3xl xl:!text-4xl 2xl:!text-5xl"
+        className="text-left text-2xl font-bold capitalize text-black dark:text-white sm:text-3xl 
+        md:!text-5xl lg:!text-3xl xl:!text-4xl"
       />
       <DigitedText
         words={['Desenvolvedor Full-Stack', 'Desenvolvedor Web']}

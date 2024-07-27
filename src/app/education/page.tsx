@@ -13,7 +13,7 @@ const Education = () => {
           name="description"
           content="Página de projetos desenvolvidos em React e Next.JS"
         />
-      </Head>
+      </Head> 
       <main className="mb-16 flex w-full flex-col items-center sm:mt-20">
         <Container>
           <div className="mb-10 lg:mb-32">
