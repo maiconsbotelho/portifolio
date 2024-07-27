@@ -2,9 +2,11 @@ import AnimatedText from '@/components/animatedText';
 import Card3D from '@/components/card3D';
 import Container from '@/components/container';
 import Head from 'next/head';
+import BarbaBrutal from '../../../public/assets/projetos/BarbaBrutal.png';
 import PetBoutique from '../../../public/assets/projetos/petBoutique.png';
 import SecretWord from '../../../public/assets/projetos/secretWord.png';
 import Sellet from '../../../public/assets/projetos/selletEsmalteria.png';
+import SpiderLinks from '../../../public/assets/projetos/SpiderLinks.png';
 import Tarefas from '../../../public/assets/projetos/tarefasPlus.png';
 
 const Projects = () => {
@@ -46,12 +48,29 @@ const Projects = () => {
               website="https://selletesmalteria.com.br/"
             />
             <Card3D
+              title="Barba Brutal"
+              description="Projeto desenvolvido pensando em uma Barbearia, com o intuito de facilitar o agendamento, mostrar os
+            serviços oferecidos e os contatos da empresa."
+              img={BarbaBrutal}
+              technologies={['React', 'Next.js', 'Tailwind CSS']}
+              github="https://github.com/maiconsbotelho/barba-brutal"
+              website="https://maiconbotelho-barbabrutal.vercel.app/"
+            />
+            <Card3D
+              title="Spider LinkPage"
+              description="LinkPage é uma LandingPage desenvolvida com Next.js que oferece uma página de links personalizada, ideal para exibir uma lista de links de maneira estilizada e eficiente."
+              img={SpiderLinks}
+              technologies={['React', 'Next.js', 'Tailwind CSS']}
+              github="https://github.com/maiconsbotelho/linkpage"
+              website="https://maiconbotelho-linkpage.vercel.app/"
+            />
+            <Card3D
               title="Tarefas+"
               description="Desenvolvido para gerenciar tarefas, com o intuito de mostrar as tarefas a serem feitas, com a possibilidade de incluir comentários e excluí-las."
               img={Tarefas}
               technologies={['React', 'Next.js', 'Tailwind CSS']}
               github="https://github.com/maiconsbotelho/tarefas"
-              website="https://tarefas-maicon.vercel.app/"
+              website="https://maiconbotelho-tarefas.vercel.app/"
             />
             <Card3D
               title="SecretWord"
@@ -68,15 +87,6 @@ const Projects = () => {
               technologies={['React', 'Next.js', 'Tailwind CSS']}
               github="https://github.com/maiconsbotelho/Pet_boutique"
               website="https://maiconsbotelho.github.io/Pet_boutique/"
-            />
-            <Card3D
-              title="Sellet Esmalteria"
-              description="Projeto desenvolvido para uma esmalteria, com o intuito de mostrar os
-          serviços oferecidos e os contatos da empresa."
-              img={Sellet}
-              technologies={['React', 'Next.js', 'Tailwind CSS']}
-              github="https://github.com/maiconsbotelho/SelletEsmalteria"
-              website="https://selletesmalteria.com.br/"
             />
           </div>
         </Container>
