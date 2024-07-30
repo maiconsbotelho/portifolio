@@ -16,6 +16,8 @@ import {
   SiReact,
   SiTailwindcss,
   SiTypescript,
+  SiPostgresql,
+  
 } from 'react-icons/si';
 import { CardBody, CardContainer, CardItem } from '../ui/3d-card';
 
@@ -32,6 +34,9 @@ const technologyIcons: Record<string, React.ReactNode> = {
   JavaScript: <SiJavascript size={24} color="#F7DF1E" />, // JavaScript: #F7DF1E
   'Node.js': <FaNodeJs size={24} color="#339933" />, // Node.js: #339933
   'Nest.js': <SiNestjs size={24} color="#E0234E" />, // Nest.js: #E0234E
+  PostgreSQL: <SiPostgresql size={24} color="#336791" />, // PostgreSQL: #336791
+  
+
 };
 
 const Card3D: React.FC<CardProps> = ({
