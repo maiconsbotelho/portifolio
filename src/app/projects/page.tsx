@@ -2,13 +2,13 @@ import AnimatedText from '@/components/animatedText';
 import Card3D from '@/components/card3D';
 import Container from '@/components/container';
 import Head from 'next/head';
-import BarbaBrutal from '../../../public/assets/projetos/BarbaBrutal.png';
-import Gelateria from '../../../public/assets/projetos/gelateria.png';
-import PetBoutique from '../../../public/assets/projetos/petBoutique.png';
-import SecretWord from '../../../public/assets/projetos/secretWord.png';
-import Sellet from '../../../public/assets/projetos/selletEsmalteria.png';
-import SpiderLinks from '../../../public/assets/projetos/SpiderLinks.png';
-import Tarefas from '../../../public/assets/projetos/tarefasPlus.png';
+import BarbaBrutal from '/public/assets/projetos/BarbaBrutal.png';
+import Gelateria from '/public/assets/projetos/gelateria.png';
+import PetBoutique from '/public/assets/projetos/petBoutique.png';
+import SecretWord from '/public/assets/projetos/secretWord.png';
+import Sellet from '/public/assets/projetos/selletEsmalteria.png';
+import SpiderLinks from '/public/assets/projetos/SpiderLinks.png';
+import Tarefas from '/public/assets/projetos/tarefasPlus.png';
 
 const Projects = () => {
   return (
@@ -105,7 +105,7 @@ const Projects = () => {
               github="https://github.com/maiconsbotelho/Pet_boutique"
               website="https://maiconsbotelho.github.io/Pet_boutique/"
             />
-          </div>  
+          </div>
         </Container>
       </main>
     </>

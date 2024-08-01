@@ -12,12 +12,11 @@ import {
   SiJavascript,
   SiNestjs,
   SiNextdotjs,
+  SiPostgresql,
   SiPrisma,
   SiReact,
   SiTailwindcss,
   SiTypescript,
-  SiPostgresql,
-  
 } from 'react-icons/si';
 import { CardBody, CardContainer, CardItem } from '../ui/3d-card';
 
@@ -35,8 +34,6 @@ const technologyIcons: Record<string, React.ReactNode> = {
   'Node.js': <FaNodeJs size={24} color="#339933" />, // Node.js: #339933
   'Nest.js': <SiNestjs size={24} color="#E0234E" />, // Nest.js: #E0234E
   PostgreSQL: <SiPostgresql size={24} color="#336791" />, // PostgreSQL: #336791
-  
-
 };
 
 const Card3D: React.FC<CardProps> = ({
@@ -48,7 +45,7 @@ const Card3D: React.FC<CardProps> = ({
   website = '',
 }) => {
   return (
-    <CardContainer className="inter-var sm:w-auto w-72 xs:w-80">
+    <CardContainer className="inter-var w-72 sm:w-auto xs:w-80">
       <CardBody className="group/card relative h-auto rounded-xl border border-black/[0.1] bg-black p-6 hover:shadow-2xl hover:shadow-black dark:border-white/[0.2] dark:hover:shadow-2xl dark:hover:shadow-blue-500">
         <CardItem translateZ="50" className="text-xl font-bold text-white">
           {title}
@@ -56,7 +53,7 @@ const Card3D: React.FC<CardProps> = ({
         <CardItem
           as="p"
           translateZ="60"
-          className="mt-2 sm:h-28 max-w-sm sm:text-sm text-xs h-20 text-neutral-300"
+          className="mt-2 h-20 max-w-sm text-xs text-neutral-300 sm:h-28 sm:text-sm"
         >
           {description}
         </CardItem>
@@ -71,16 +68,13 @@ const Card3D: React.FC<CardProps> = ({
         </CardItem>
 
         {/* Tecnologias usadas */}
-        <div className="sm:mt-10 mt-5 flex text-base items-center justify-center text-neutral-300">
+        <div className="mt-5 flex items-center justify-center text-base text-neutral-300 sm:mt-10">
           <span>Tecnologias:</span>
         </div>
         <div className="mt-1 flex items-center justify-center gap-2">
           {technologies.map((tech) => (
             <div className="group relative" key={tech}>
-              <CardItem
-                translateZ={20}
-                className="text-black dark:text-white"
-              >
+              <CardItem translateZ={20} className="text-black dark:text-white">
                 {technologyIcons[tech] || <span>{tech}</span>}
               </CardItem>
               <div className="absolute bottom-0 left-1/2 mt-2 hidden -translate-x-1/2 translate-y-full transform rounded-lg bg-gray-800 px-2 py-1 text-sm text-white group-hover:block">

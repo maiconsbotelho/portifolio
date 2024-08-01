@@ -8,7 +8,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
 import { FaWhatsapp } from 'react-icons/fa';
-import PerfilPic from '../../../public/assets/pic1.png';
+import PerfilPic from '/public/assets/pic1.png';
 
 const MotionLink = motion(Link);
 
@@ -19,7 +19,7 @@ const About = () => {
         <title>Maicon Botelho | Sobre</title>
         <meta name="description" content="Página sobre Maicon Botelho" />
       </Head>
-      <main className="mb-16 sm:flex sm:mt-20">
+      <main className="mb-16 sm:mt-20 sm:flex">
         <Containaer>
           <div className="flex w-full flex-col items-center">
             <AnimatedText

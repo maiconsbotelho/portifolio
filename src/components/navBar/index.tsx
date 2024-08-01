@@ -1,11 +1,10 @@
 'use client';
-import { useEffect, useState } from 'react';
-import Container from '@/components/container';
 import { CustomLink, CustomMobileLink } from '@/components/customLink';
 import Logo from '@/components/logo';
 import SocialLinks from '@/components/socialLinks';
 import ThemeBtn from '@/components/themeBtn';
 import { motion } from 'framer-motion';
+import { useEffect, useState } from 'react';
 
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false); // Estado do menu
@@ -41,7 +40,7 @@ const NavBar = () => {
 
   return (
     <header
-      className={`fixed left-0 right-0 top-0 z-50 flex h-28 w-full items-center justify-center  transition-all duration-300 ease-in-out ${isScrolled ? 'bg-black text-white bg-opacity-70 backdrop-blur-sm' : 'bg-transparent'}`}
+      className={`fixed left-0 right-0 top-0 z-50 flex h-28 w-full items-center justify-center transition-all duration-300 ease-in-out ${isScrolled ? 'bg-black bg-opacity-70 text-white backdrop-blur-sm' : 'bg-transparent'}`}
     >
       <div className="m-auto flex w-full max-w-screen-xl items-center justify-between px-3 font-medium">
         {/* Botão de menu mobile (ToggleMenu) */}

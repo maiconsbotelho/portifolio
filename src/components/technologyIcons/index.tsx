@@ -6,11 +6,11 @@ import {
   SiJavascript,
   SiNestjs,
   SiNextdotjs,
+  SiPostgresql,
   SiPrisma,
   SiReact,
   SiTailwindcss,
   SiTypescript,
-  SiPostgresql,
 } from 'react-icons/si';
 
 const technologyIcons: Record<
