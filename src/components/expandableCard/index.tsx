@@ -203,6 +203,24 @@ export const CloseIcon = () => {
 const cards = [
   {
     description: 'DevMedia',
+    title: 'React',
+    src: '/assets/certificates/devMediaReact.png',
+    ctaText: 'Visit',
+    ctaLink: 'https://ui.aceternity.com/templates',
+    content: () => {
+      return (
+        <p>
+          Aprendi a criar interfaces dinâmicas e interativas com React,
+          desenvolvendo e compondo componentes reutilizáveis. Adquiri
+          conhecimentos sobre a manipulação de coleções de dados e a criação de
+          layouts responsivos, garantindo a construção de aplicações web
+          modernas e eficientes
+        </p>
+      );
+    },
+  },
+  {
+    description: 'DevMedia',
     title: 'HTML5',
     src: '/assets/certificates/devMediaHTML.png',
     ctaText: 'Visit',
@@ -217,6 +235,7 @@ const cards = [
       );
     },
   },
+
   {
     description: 'DevMedia',
     title: 'CSS3',
