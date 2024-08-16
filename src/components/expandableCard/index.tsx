@@ -202,6 +202,22 @@ export const CloseIcon = () => {
 
 const cards = [
   {
+    description: 'CWI Software',
+    title: 'CWI Crescer - Level 1',
+    src: '/assets/certificates/cwi.png',
+    ctaText: 'Visit',
+    ctaLink: 'https://ui.aceternity.com/templates',
+    content: () => {
+      return (
+        <p>
+          Desenvolvi 13 projetos práticos utilizando Java, JavaScript,
+          PostgreSQL, HTML e CSS. Aprendendo fundamentos sólidos de programação
+          e desenvolvimento web com testes unitários usando Jest e JUnit
+        </p>
+      );
+    },
+  },
+  {
     description: 'DevMedia',
     title: 'React',
     src: '/assets/certificates/devMediaReact.png',
@@ -215,6 +231,26 @@ const cards = [
           conhecimentos sobre a manipulação de coleções de dados e a criação de
           layouts responsivos, garantindo a construção de aplicações web
           modernas e eficientes
+        </p>
+      );
+    },
+  },
+  {
+    description: 'DevMedia',
+    title: 'JavaScript',
+    src: '/assets/certificates/devMediaJavaScript.png',
+    ctaText: 'Visit',
+    ctaLink: 'https://ui.aceternity.com/templates',
+    content: () => {
+      return (
+        <p>
+          Adquiri sólidos conhecimentos em JavaScript, desde fundamentos como
+          variáveis, operadores e manipulação de strings até conceitos avançados
+          como modularização e arquitetura em camadas. Trabalhei com objetos,
+          estruturas condicionais e de repetição, além de manipular coleções de
+          dados com arrays e funções. Também explorei a manipulação de datas e
+          strings, desenvolvendo habilidades para criar soluções dinâmicas e
+          eficientes, completando mais de 650 exercícios e 15 cursos práticos.
         </p>
       );
     },
@@ -253,22 +289,6 @@ const cards = [
     },
   },
 
-  {
-    description: 'CWI Software',
-    title: 'CWI Crescer - Level 1',
-    src: '/assets/certificates/cwi.png',
-    ctaText: 'Visit',
-    ctaLink: 'https://ui.aceternity.com/templates',
-    content: () => {
-      return (
-        <p>
-          Desenvolvi 13 projetos práticos utilizando Java, JavaScript,
-          PostgreSQL, HTML e CSS. Aprendendo fundamentos sólidos de programação
-          e desenvolvimento web com testes unitários usando Jest e JUnit
-        </p>
-      );
-    },
-  },
   {
     description: 'Udemy',
     title: 'Algoritmos e Lógica de Programação',
