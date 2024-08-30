@@ -90,14 +90,6 @@ const Projects = () => {
               website="https://maiconbotelho-tarefas.vercel.app/"
             />
             <Card3D
-              title="SecretWord"
-              description="Desenvolvido para jogar o jogo da forca, com o intuito de adivinhar a palavra secreta."
-              img={SecretWord}
-              technologies={['React', 'Next.js', 'TypeScript', 'Tailwind CSS']}
-              github="https://github.com/maiconsbotelho/secretword"
-              website="https://maiconsbotelho.github.io/secretword/"
-            />
-            <Card3D
               title="Pet Boutique"
               description="Desenvolvido para uma pet shop, com o intuito de mostrar os serviços oferecidos e os contatos da empresa."
               img={PetBoutique}
