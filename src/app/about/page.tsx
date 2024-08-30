@@ -72,7 +72,7 @@ const About = () => {
                 />
                 <div className="mt-5 flex items-center justify-between gap-5">
                   <CvButton
-                    href="/curriculo.pdf"
+                    href="/cv-maiconBotelho.pdf"
                     text="BaixarCV"
                     download={true}
                     className="flex-grow bg-primaryColor hover:shadow-secondaryColor"
