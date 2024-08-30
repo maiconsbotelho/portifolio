@@ -11,11 +11,10 @@ const Welcome = () => {
       />
       <AnimatedText
         text="Maicon Botelho"
-        className="text-left text-2xl font-bold capitalize text-black dark:text-white sm:text-3xl 
-        md:!text-5xl lg:!text-3xl xl:!text-4xl"
+        className="text-left text-2xl font-bold capitalize text-black dark:text-white sm:text-3xl md:!text-5xl lg:!text-3xl xl:!text-4xl"
       />
       <DigitedText
-        words={['Desenvolvedor Full-Stack', 'Desenvolvedor Web']}
+        words={['Bacharelando em Engenharia de Software', 'Desenvolvedor Web']}
         className="text-1xl text-left font-bold text-primaryColor sm:text-2xl md:!text-4xl lg:!text-2xl xl:!text-2xl 2xl:!text-3xl"
       />
       <div className="mb-14 mt-5 hidden lg:block">
@@ -26,7 +25,7 @@ const Welcome = () => {
         &quot;O sucesso é a soma de pequenos esforços repetidos
         diariamente.&quot;
       </p>
-      <p className='text-right mt-2 text-xs md:text-base  text-zinc-700'>
+      <p className="mt-2 text-right text-xs text-zinc-700 md:text-base">
         - Robert Collier -
       </p>
     </section>
