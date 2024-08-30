@@ -48,15 +48,10 @@ const About = () => {
                 <p className="mt-4 text-center font-medium sm:text-start">
                   Para aprofundar meus conhecimentos, explorei tecnologias como
                   HTML5, CSS3 e JavaScript, permitindo-me criar projetos mais
-                  atrativos e interativos. Desde então, venho cursando Análise e
-                  Desenvolvimento de Sistemas na Uninter e aprimorando
-                  continuamente minhas habilidades e expertise no
-                  desenvolvimento Full-Stack.
-                </p>
-                <p className="mt-4 text-center font-medium sm:text-start">
-                  Iniciei minha carreira profissional atendendo demandas de
-                  clientes na minha localidade, e antes disso, dedicava meu
-                  tempo à criação de projetos de estudo.
+                  atrativos e interativos. Desde então, venho cursando
+                  Engenharia de Software na Uninter e aprimorando continuamente
+                  minhas habilidades e expertise com Next.js, React, TypeScript,
+                  Nest.js, Node.js e PostgreSQL.
                 </p>
                 <p className="mt-4 text-center font-medium sm:text-start">
                   Minhas experiências anteriores me trouxeram não apenas

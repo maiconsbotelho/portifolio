@@ -288,6 +288,65 @@ const cards = [
       );
     },
   },
+  {
+    description: 'Formação Dev - Cod3r',
+    title: 'TypeScript',
+    src: '/assets/certificates/coderTypescript.png',
+    ctaText: 'Visit',
+    ctaLink: 'https://ui.aceternity.com/templates',
+    content: () => {
+      return (
+        <p>
+          Adquiri um sólido domínio em TypeScript, começando pelos fundamentos
+          como tipagem estática, interfaces e tipos genéricos, até conceitos
+          mais avançados como interfaces, tipos condicionais e manipulação
+          avançada de tipos. Trabalhei com classes, herança e polimorfismo, além
+          de explorar a integração do TypeScript com frameworks como React e
+          Node.js. Aprofundei-me na criação de tipos complexos, garantindo maior
+          segurança e robustez no desenvolvimento de aplicações.
+        </p>
+      );
+    },
+  },
+  {
+    description: 'Formação Dev - Cod3r',
+    title: 'Express.JS',
+    src: '/assets/certificates/coderExpress.png',
+    ctaText: 'Visit',
+    ctaLink: 'https://ui.aceternity.com/templates',
+    content: () => {
+      return (
+        <p>
+          Começando pelos fundamentos de criação e configuração de servidores
+          HTTP, até conceitos avançados como middleware, roteamento dinâmico e
+          gestão de erros. Trabalhei com a criação de APIs RESTful, manipulação
+          de requisições e respostas, além de integração com bancos de dados
+          como MongoDB e PostgreSQL. Também explorei a autenticação e
+          autorização de usuários.
+        </p>
+      );
+    },
+  },
+  {
+    description: 'Formação Dev - Cod3r',
+    title: 'Firestore',
+    src: '/assets/certificates/coderFirestore.png',
+    ctaText: 'Visit',
+    ctaLink: 'https://ui.aceternity.com/templates',
+    content: () => {
+      return (
+        <p>
+          Aprofundei meus conhecimentos em Firestore, explorando desde os
+          fundamentos de bancos de dados NoSQL, até a manipulação de
+          dados em tempo real. Trabalhei com a criação e gerenciamento de
+          coleções e documentos, consulta de dados com filtros e ordenações. 
+          Aprendi a implementar segurança com regras de acesso, autenticação de usuários,
+          além de integrar Firestore com aplicações frontend usando JavaScript e
+          frameworks como React.
+        </p>
+      );
+    },
+  },
 
   {
     description: 'Udemy',
