@@ -370,7 +370,7 @@ const cards = [
   },
   {
     description: 'Formação Dev - Cod3r',
-    title: 'Github Branches',
+    title: 'Git e Github Branches',
     src: '/assets/certificates/github-branches.png',
     ctaText: 'Visit',
     ctaLink: 'https://ui.aceternity.com/templates',
@@ -390,7 +390,7 @@ const cards = [
   },
   {
     description: 'Formação Dev - Cod3r',
-    title: 'Github Básico',
+    title: 'Git e Github Básico',
     src: '/assets/certificates/github-basico.png',
     ctaText: 'Visit',
     ctaLink: 'https://ui.aceternity.com/templates',
