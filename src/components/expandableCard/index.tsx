@@ -337,17 +337,98 @@ const cards = [
       return (
         <p>
           Aprofundei meus conhecimentos em Firestore, explorando desde os
-          fundamentos de bancos de dados NoSQL, até a manipulação de
-          dados em tempo real. Trabalhei com a criação e gerenciamento de
-          coleções e documentos, consulta de dados com filtros e ordenações. 
-          Aprendi a implementar segurança com regras de acesso, autenticação de usuários,
+          fundamentos de bancos de dados NoSQL, até a manipulação de dados em
+          tempo real. Trabalhei com a criação e gerenciamento de coleções e
+          documentos, consulta de dados com filtros e ordenações. Aprendi a
+          implementar segurança com regras de acesso, autenticação de usuários,
           além de integrar Firestore com aplicações frontend usando JavaScript e
           frameworks como React.
         </p>
       );
     },
   },
-
+  {
+    description: 'Formação Dev - Cod3r',
+    title: 'Terminal Linux',
+    src: '/assets/certificates/terminal-linux.png',
+    ctaText: 'Visit',
+    ctaLink: 'https://ui.aceternity.com/templates',
+    content: () => {
+      return (
+        <p>
+          Neste curso, adquiri os fundamentos essenciais para o uso do terminal
+          Linux, desde comandos básicos de navegação no sistema de arquivos e
+          gestão de diretórios até operações mais avançadas, como manipulação de
+          permissões, redirecionamento de fluxos e automação de tarefas com
+          scripts Shell. Explorei também a administração de processos,
+          monitoramento do sistema e manipulação de arquivos e usuários. O curso
+          proporcionou uma base sólida para o uso eficiente do terminal em
+          ambientes de desenvolvimento e administração de sistemas.
+        </p>
+      );
+    },
+  },
+  {
+    description: 'Formação Dev - Cod3r',
+    title: 'Github Branches',
+    src: '/assets/certificates/github-branches.png',
+    ctaText: 'Visit',
+    ctaLink: 'https://ui.aceternity.com/templates',
+    content: () => {
+      return (
+        <p>
+          Neste curso, aprofundei meus conhecimentos em Git e GitHub, com foco
+          no uso eficiente de branches para o desenvolvimento colaborativo.
+          Trabalhei com a criação, fusão e exclusão de branches, além de
+          aprender a lidar com conflitos de merge. O curso também cobriu
+          estratégias de branching, como Git Flow, e boas práticas para
+          organizar e gerenciar múltiplas linhas de desenvolvimento, garantindo
+          um fluxo de trabalho ágil e organizado.
+        </p>
+      );
+    },
+  },
+  {
+    description: 'Formação Dev - Cod3r',
+    title: 'Github Básico',
+    src: '/assets/certificates/github-basico.png',
+    ctaText: 'Visit',
+    ctaLink: 'https://ui.aceternity.com/templates',
+    content: () => {
+      return (
+        <p>
+          Neste curso, adquiri os fundamentos do Git e GitHub, começando com a
+          criação de repositórios e o controle de versões. Aprendi a realizar
+          operações essenciais, como commit, push, pull e clone, além de
+          gerenciar arquivos e diretórios de projetos versionados. O curso
+          também abordou como trabalhar com o histórico de alterações e como
+          colaborar em projetos por meio de pull requests e forks, consolidando
+          as práticas de versionamento de código e colaboração em equipe.
+        </p>
+      );
+    },
+  },
+  {
+    description: 'Formação Dev - Cod3r',
+    title: 'Markdown',
+    src: '/assets/certificates/markdown.png',
+    ctaText: 'Visit',
+    ctaLink: 'https://ui.aceternity.com/templates',
+    content: () => {
+      return (
+        <p>
+          Neste curso, aprendi a utilizar a linguagem de marcação Markdown para
+          criar documentos formatados de maneira simples e eficiente. Explorei a
+          criação de títulos, listas, links, imagens, tabelas e blocos de
+          código, além de aprender a organizar textos com ênfase e citações. O
+          curso também abordou o uso de Markdown em diferentes plataformas, como
+          GitHub e editores de texto, e como aplicar a linguagem em documentação
+          de projetos e README files, tornando a escrita técnica mais clara e
+          acessível.
+        </p>
+      );
+    },
+  },
   {
     description: 'Udemy',
     title: 'Algoritmos e Lógica de Programação',
